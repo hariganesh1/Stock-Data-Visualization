@@ -16,8 +16,8 @@ print(f"This stock has been available for trading for {NUMROWS} days.")
 ## Profit
 profit = []
 for i in range(0, NUMROWS):
-    profit.append(abs(close[i] - open[i]))
-print(f"The biggest absolute difference in the open price and the close price on the same day is ${round(max(profit),2)}")
+    profit.append(close[i] - open[i])
+print(f"The biggest difference in the open price and the close price on the same day is ${round(max(profit),2)}")
 
 
 ## Visualization: 
