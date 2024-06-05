@@ -1,3 +1,0 @@
-- plot profits 
-- plot open and close and such 
-- idk do other eda stuff 
